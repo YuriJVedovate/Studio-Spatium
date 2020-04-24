@@ -1,1 +1,27 @@
 @import "../componentes/body";
+@import "../componentes/nav";
+@import "../componentes/footer";
+
+.cadastro{
+  width: 300px;
+  height: 50vh;
+  padding: 40px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column ;
+  background-color: #191919;
+  border-radius: 10px;
+  text-align: center;
+
+  h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      font-size: 40px;
+    }
+  }
+  
+}
