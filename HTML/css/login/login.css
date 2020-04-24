@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+body .estrela {
+  position: absolute;
+  width: 385px;
+  left: 55%;
+  opacity: 0.8;
+}
+
+body .bg_video_body {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -2;
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #191919;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box h1 {
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.box h1:hover {
+  font-size: 40px;
+}
+
+.box a {
+  color: yellow;
+  text-decoration: none;
+  -webkit-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+
+.box a:hover {
+  color: #3498db;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box a #sith {
+  text-decoration: none;
+  -webkit-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+
+.box a #sith:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #fff;
+  border-radius: 360px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+  width: 250px;
+  border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: #fff;
+  border-radius: 360px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #2ecc71;
+  -webkit-box-shadow: 0 0 10px #2ecc71, 0 0 40px;
+          box-shadow: 0 0 10px #2ecc71, 0 0 40px;
+  color: black;
+}
+/*# sourceMappingURL=login.css.map */

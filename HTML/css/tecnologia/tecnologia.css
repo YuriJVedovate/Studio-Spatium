@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .bg_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background: url(images/torre.jpg) no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 3px solid rgba(255, 255, 0, 0.308);
+}
+
+nav #foguete {
+  width: 80px;
+  padding-right: 10px;
+}
+
+nav #logo {
+  width: 160px;
+  padding-right: 10px;
+}
+
+nav .titulo {
+  color: rgba(255, 255, 255, 0.733);
+  font-weight: bold;
+}
+
+nav .logotipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 50px;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 50px;
+  list-style: none;
+}
+
+nav li {
+  margin: 20px;
+}
+
+nav .marcador a {
+  color: white;
+  font-weight: 700;
+}
+
+nav a {
+  color: yellow;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#falcon {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  bottom: 2%;
+  right: -35px;
+  cursor: pointer;
+}
+
+#falcon #icon_falcon {
+  height: 120px;
+}
+
+footer .cont-foo {
+  color: white;
+  background: #833ab4;
+  background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  text-shadow: 1px 0px 10px black;
+  text-align: center;
+  min-height: 50px;
+}
+
+footer p {
+  padding-top: 15px;
+}
+/*# sourceMappingURL=tecnologia.css.map */

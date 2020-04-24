@@ -1,0 +1,59 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rgba(255, 255, 0, 0.308);
+
+  #foguete {
+    width: 80px;
+    padding-right: 10px;
+  }
+  #logo {
+    width: 160px;
+    padding-right: 10px;
+  }
+  .titulo {
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: bold;
+  }
+  .logotipo {
+    display: flex;
+    padding: 20px 50px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    margin: 0px 50px;
+    list-style: none;
+  }
+  li {
+    margin: 20px;
+  }
+  .marcador a {
+    color: white;
+    font-weight: 700;
+  }
+  a {
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
+#falcon {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  bottom: 2%;
+  right: -35px;
+  cursor: pointer;
+
+  #icon_falcon {
+    height: 120px;
+  }
+}
