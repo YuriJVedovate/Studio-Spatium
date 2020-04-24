@@ -67,12 +67,12 @@ main {
       overflow: hidden;
 
       &:nth-child(1) {
-        background: url(/img/nasa1.jpg);
+        background: url(/HTML/img/index/nasa.jpg);
         background-position: center;
         background-size: cover;
       }
       &:nth-child(2) {
-        background: url(/img/spaceX.png);
+        background: url(/HTML/img/index/spaceX.png);
         background-position: left;
         background-size: cover;
       }

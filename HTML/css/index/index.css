@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
@@ -20,8 +20,8 @@ body .bg_video {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -1000;
-  background: url(images/torre.jpg) no-repeat;
+  z-index: -1;
+  background: url(/HTML/img/estrelas_fundo.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -191,13 +191,13 @@ main .lista .item {
 }
 
 main .lista .item:nth-child(1) {
-  background: url(/img/nasa1.jpg);
+  background: url(/HTML/img/index/nasa.jpg);
   background-position: center;
   background-size: cover;
 }
 
 main .lista .item:nth-child(2) {
-  background: url(/img/spaceX.png);
+  background: url(/HTML/img/index/spaceX.png);
   background-position: left;
   background-size: cover;
 }
@@ -229,7 +229,6 @@ main .lista .item:hover .content {
 
 footer .cont-foo {
   color: white;
-  background: #833ab4;
   background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
   text-shadow: 1px 0px 10px black;
   text-align: center;
