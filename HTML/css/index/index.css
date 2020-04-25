@@ -93,6 +93,23 @@ nav a {
   font-size: 15px;
 }
 
+nav .query {
+  margin: 0;
+  padding: 0;
+}
+
+nav .query #q {
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid yellow;
+  border-radius: 360px;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+}
+
 #falcon {
   padding: 0px;
   margin: 0px;
