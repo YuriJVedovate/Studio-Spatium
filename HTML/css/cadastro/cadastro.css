@@ -106,21 +106,21 @@ nav a {
   height: 120px;
 }
 
-footer .cont-foo {
-  color: white;
-  background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
-  text-shadow: 1px 0px 10px black;
-  text-align: center;
-  min-height: 50px;
+body {
+  overflow-x: hidden;
 }
 
-footer p {
-  padding-top: 15px;
+.destroyer {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 64%;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .cadastro {
-  width: 300px;
-  height: 50vh;
+  width: 50%;
   padding: 40px;
   margin: 40px auto;
   display: -webkit-box;
@@ -145,5 +145,64 @@ footer p {
 
 .cadastro h1:hover {
   font-size: 40px;
+}
+
+.cadastro input {
+  border: 0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 80%;
+  outline: none;
+  color: #fff;
+  border-radius: 360px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.cadastro input:focus {
+  width: 90%;
+  border-color: #2ecc71;
+}
+
+.cadastro .usuario {
+  border: 0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 40%;
+  outline: none;
+  color: #fff;
+  border-radius: 360px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.cadastro .usuario:focus {
+  width: 50%;
+  border-color: #2ecc71;
+}
+
+.cadastro input[type="submit"]:hover {
+  background-color: #3498db;
+  -webkit-box-shadow: 0 0 10px #3498db, 0 0 40px;
+          box-shadow: 0 0 10px #3498db, 0 0 40px;
+  color: black;
+}
+
+footer .cont-foo {
+  color: white;
+  background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  text-shadow: 1px 0px 10px black;
+  text-align: center;
+  min-height: 50px;
+}
+
+footer p {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=cadastro.css.map */
