@@ -98,7 +98,7 @@ nav a {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .destroyer {
@@ -126,11 +126,6 @@ body {
   background-color: #191919;
   border-radius: 10px;
   text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
 }
 
 .cadastro h1 {
@@ -202,11 +197,5 @@ footer .cont-foo {
 
 footer p {
   padding-top: 15px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 /*# sourceMappingURL=cadastro.css.map */

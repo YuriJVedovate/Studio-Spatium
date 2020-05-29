@@ -2,7 +2,7 @@
 @import "../componentes/nav";
 
 body{
- overflow: hidden;
+ overflow-x: hidden;
 }
 .destroyer{
     position: absolute;
@@ -22,12 +22,7 @@ body{
   background-color: #191919;
   border-radius: 10px;
   text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-
-
+  
   h1 {
     color: yellow;
     text-transform: uppercase;
@@ -82,9 +77,3 @@ body{
 
 }
 @import "../componentes/footer";
-
-footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
