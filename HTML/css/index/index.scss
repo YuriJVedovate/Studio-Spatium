@@ -8,7 +8,7 @@ header {
     right: 0;
     bottom: 0;
     height: 100vh;
-    width: 98vw;
+    width: 99vw;
     background-size: cover;
     border: none;
     margin: 0px;
@@ -17,12 +17,9 @@ header {
 }
 .conteudo {
   color: yellow;
-  align-items: center;
   text-align: center;
 
   .conteiner {
-    align-items: center;
-    text-align: center;
     display: flex;
     flex-direction: column;
     text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.514);
@@ -44,7 +41,7 @@ main {
 
   .lista {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background: orange;
     margin: 0;
     padding: 0;
@@ -54,7 +51,6 @@ main {
     }
 
     .item {
-      background-color: orangered;
       list-style: none;
       position: relative;
       width: 50%;

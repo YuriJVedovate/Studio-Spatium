@@ -4,6 +4,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
   border-bottom: 3px solid rgba(255, 255, 0, 0.308);
 
@@ -15,16 +16,11 @@ nav {
     width: 160px;
     padding-right: 10px;
   }
-  .titulo {
-    color: rgba(255, 255, 255, 0.733);
-    font-weight: bold;
-  }
+
   .logotipo {
     display: flex;
     padding: 20px 50px;
-    font-weight: 700;
     align-items: center;
-    text-align: center;
   }
   ul {
     display: flex;
@@ -44,27 +40,12 @@ nav {
     text-decoration: none;
     font-size: 15px;
   }
-  .query {
-    margin: 0;
-    padding: 0;
-    #q {
-      border: 0;
-      background: none;
-      display: block;
-      text-align: center;
-      border: 2px solid yellow;
-      border-radius: 360px;
-      text-transform: uppercase;
-      outline: none;
-      color: #fff;
-    }
-  }
 }
 #falcon {
   padding: 0px;
   margin: 0px;
   position: fixed;
-  bottom: 2%;
+  bottom: 4%;
   right: -35px;
   cursor: pointer;
 

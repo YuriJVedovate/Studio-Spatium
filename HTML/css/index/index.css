@@ -18,10 +18,7 @@ body .bg_video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
   z-index: -1;
-  background: url(/HTML/img/estrelas_fundo.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -36,6 +33,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -52,21 +50,14 @@ nav #logo {
   padding-right: 10px;
 }
 
-nav .titulo {
-  color: rgba(255, 255, 255, 0.733);
-  font-weight: bold;
-}
-
 nav .logotipo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 20px 50px;
-  font-weight: 700;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
 nav ul {
@@ -93,28 +84,11 @@ nav a {
   font-size: 15px;
 }
 
-nav .query {
-  margin: 0;
-  padding: 0;
-}
-
-nav .query #q {
-  border: 0;
-  background: none;
-  display: block;
-  text-align: center;
-  border: 2px solid yellow;
-  border-radius: 360px;
-  text-transform: uppercase;
-  outline: none;
-  color: #fff;
-}
-
 #falcon {
   padding: 0px;
   margin: 0px;
   position: fixed;
-  bottom: 2%;
+  bottom: 4%;
   right: -35px;
   cursor: pointer;
 }
@@ -132,7 +106,7 @@ header .video_inicio {
   right: 0;
   bottom: 0;
   height: 100vh;
-  width: 98vw;
+  width: 99vw;
   background-size: cover;
   border: none;
   margin: 0px;
@@ -141,17 +115,10 @@ header .video_inicio {
 
 .conteudo {
   color: yellow;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
 }
 
 .conteudo .conteiner {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,7 +148,7 @@ main {
 
 main .lista {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   background: orange;
   margin: 0;
   padding: 0;
@@ -192,7 +159,6 @@ main .lista:hover .item {
 }
 
 main .lista .item {
-  background-color: orangered;
   list-style: none;
   position: relative;
   width: 50%;

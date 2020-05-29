@@ -5,8 +5,8 @@ proposta: fazer um site com tema livre com coisas que eu sei e coisas que pesqui
 objetivo: mostrar como a tecnologia esta está presente nos campos aerospacial, area de TI e  automação;
 
 o que deve conter:
--pagina responsiva;
 -tema Star Wars;
+
 -menus:
 	-pagina home:
 		-introdução com comparação entre Nasa vs SpaceX;
@@ -14,6 +14,7 @@ o que deve conter:
 	-pagina curiosidades:
 		-feitos na guerra fria;
 		-maiores missões espaciais;
+		-sol branco;
 
 	-pagina tecnologia:
 		-mostrar tecnologias inovadoras;
@@ -23,8 +24,7 @@ o que deve conter:
 		-senha;
 		-criar conta;
 		-esqueceu a senha;
-		-logar com github;
-		logar com google;
+
 
 	-pagina de cadastro:
 		-nome ccompleto;
@@ -34,13 +34,12 @@ o que deve conter:
 
 backlog:
 coisas para fazer:
-	-pagina de cadastro;
-	-pagina de login;
-	-pagina de tecnologia;
-	-pagina de curiosidades;
-	-pagina home:
+	-pagina de cadastro; feito
+	-pagina de login; feito
+	-pagina de tecnologia; 
+	-pagina de curiosidades; 
+	-pagina home: 
 		-slide com nasa e spacex:
 			-comparação entre;
-		-pagina de login;
 
 
