@@ -14,6 +14,10 @@ body {
 
 body .bg_video {
   position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -109,6 +113,7 @@ header .video_inicio {
   width: 98vw;
   background-size: cover;
   border: none;
+  outline: none;
   margin: 0px;
   padding: 0px;
 }
@@ -140,9 +145,6 @@ header .video_inicio {
 }
 
 main {
-  position: relative;
-  bottom: 0;
-  left: 0;
   color: #fff;
 }
 

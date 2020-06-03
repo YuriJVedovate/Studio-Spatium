@@ -1,28 +1,28 @@
 @import "../componentes/body";
 @import "../componentes/nav";
 
-body{
- overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.destroyer{
-    position: absolute;
-    width: 60%;
-    top: 50%;
-    left: 64%;
-    transform: translateX(-10%) translateY(-50%);
-    opacity: 0.8;
-    z-index: -1;
+.destroyer {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 64%;
+  transform: translateX(-10%) translateY(-50%);
+  opacity: 0.8;
+  z-index: -1;
 }
-.cadastro{
+.cadastro {
   width: 50%;
   padding: 40px;
   margin: 40px auto;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   background-color: #191919;
   border-radius: 10px;
   text-align: center;
-  
+
   h1 {
     color: yellow;
     text-transform: uppercase;
@@ -33,7 +33,7 @@ body{
       font-size: 40px;
     }
   }
-  input{
+  input {
     border: 0;
     background: none;
     margin: 20px auto;
@@ -51,7 +51,7 @@ body{
       border-color: #2ecc71;
     }
   }
-  .usuario{
+  .usuario {
     border: 0;
     background: none;
     margin: 20px auto;

@@ -11,6 +11,7 @@ header {
     width: 98vw;
     background-size: cover;
     border: none;
+    outline: none;
     margin: 0px;
     padding: 0px;
   }
@@ -34,9 +35,7 @@ header {
   }
 }
 main {
-  position: relative;
-  bottom: 0;
-  left: 0;
+  
   color: #fff;
 
   .lista {

@@ -11,11 +11,13 @@ body {
   
   .bg_video {
     position: fixed;
+    justify-content: center;
+    background-position: center;
     right: 0;
     bottom: 0;
     min-width: 100%;  //valores sem o min bugam 
     min-height: 100%;
     z-index: -1;
-    background-size: cover;
+    background-size: cover ;
   }
 }
