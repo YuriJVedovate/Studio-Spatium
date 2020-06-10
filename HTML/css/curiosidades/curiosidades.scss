@@ -1,3 +1,89 @@
 @import "../componentes/body";
 @import "../componentes/nav";
+
+body{
+  overflow-x: hidden;
+}
+
+header {
+  .Titulo_Header {
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    h1 {
+      margin: 0;
+      padding-top: 5vh;
+    }
+    h2 {
+      margin: 0;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  text-shadow: 1px 1px 1px black;
+
+  .curiosidades {
+    padding: 40px 0;
+    color: #f1f1f1;
+
+    .titulo {
+      color: yellow;
+      text-align: center;
+    }
+
+    p {
+      text-indent: 40px;
+      padding-left: 50px;
+    }
+
+    ol {
+      color: #f1f1f1;
+      text-shadow: 1px 1px 1px black;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 20px;
+      color: #f1f1f1;
+    }
+    .conteudo {
+      display: flex;
+    }
+
+    .SolBranco {
+      width: 30%;
+      height: 30%;
+      border-radius: 360px;
+      margin-top: 25px;
+    }
+    .tamanho_sol {
+      width: 30%;
+      height: 30%;
+      border-radius: 20px;
+      margin-top: 70px;
+    }
+    #planetas_gasosos {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+      .planetas_gasosos {
+        width: 800px;
+        margin: auto;
+      }
+    }
+    #coração_esferico{
+      background-image: url(/HTML/img/curiosidades/coração_esferico_semfundo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 550px;
+      border-radius: 6px;
+    }
+  }
+}
+
 @import "../componentes/footer";
