@@ -51,29 +51,11 @@ body {
       border-color: #2ecc71;
     }
   }
-  .usuario {
-    border: 0;
-    background: none;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
-    padding: 14px 10px;
-    width: 40%;
-    outline: none;
-    color: #fff;
-    border-radius: 360px;
-    transition: 0.25s;
-
-    &:focus {
-      width: 50%;
-      border-color: #2ecc71;
-    }
   }
   & input[type="submit"]:hover {
     background-color: #3498db;
     box-shadow: 0 0 10px #3498db, 0 0 40px;
     color: black;
   }
-
-}
+  
 @import "../componentes/footer";

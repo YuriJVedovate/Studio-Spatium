@@ -109,5 +109,12 @@ main {
     border-radius: 6px;
   }
 }
-
+.img{
+  width: 460px;
+}
+.tag_a{
+  text-decoration: none;
+  padding: 20px;
+  color: #f1f1f1;
+}
 @import "../componentes/footer";

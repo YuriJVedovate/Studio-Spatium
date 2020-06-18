@@ -212,6 +212,16 @@ main .content {
   border-radius: 6px;
 }
 
+.img {
+  width: 460px;
+}
+
+.tag_a {
+  text-decoration: none;
+  padding: 20px;
+  color: #f1f1f1;
+}
+
 footer .cont-foo {
   color: white;
   background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);

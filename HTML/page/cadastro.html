@@ -31,17 +31,16 @@
     </ul>
   </nav>
 
-  <form action="/HTML/index.html" class="cadastro">
+  <form onsubmit="EnviarCadastro()" class="cadastro">
     <h1>cadastro</h1>
-    <div class="box-usuario">
-      <input class="usuario" type="text" name="" id="FirstName" placeholder="Primeiro nome" required>
-      <input class="usuario" type="text" name="" id="LastName" placeholder="Sobrenome" required>
-    </div>
-    <input type="text" name="" id="NickName" placeholder="Apelido" required>
-    <input type="email" name="" id="email" placeholder="Email" required>
-    <input type="password" name="" id="password" placeholder="Senha" required>
-    <input type="submit" value="Login">
+    <input type="email" name="" id="email" placeholder="Email">
+    <input type="text" name="" id="NickName" placeholder="Apelido">
+    <input type="password" name="" id="password" placeholder="Senha">
+    <input type="submit" value="Cadastrar">
+    <span id="MensagemAcerto"></span>
+    <ul id="MensagemErro" ></ul>
   </form>
+
   <a id="falcon" href="#navegação"><img id="icon_falcon" src="/HTML/img/Nav/seta.png" alt=""></a>
   <footer>
     <div class="cont-foo">
@@ -51,3 +50,43 @@
 </body>
 
 </html>
+<script>
+  function EnviarCadastro(){
+    var erros = ValidarCadastro();
+    console.log(erros);
+    MensagemErro.innerHTML = "";
+
+    if(erros.length > 0){
+      for(var i=0; i < erros.length; i++){
+        var erro = erros[i];
+        var li = document.createElement("li");
+        li.innerHTML = erro;
+        MensagemErro.appendChild(li);
+      }
+    }
+    else{
+      var p = document.createElement("p");
+      p.innerHTML = "Suas Informações são validas";
+      MensagemAcerto.appendChild(p);
+    }
+  }
+
+  function ValidarCadastro(){
+    var erros = [];
+
+    if((email.value.search("@") == -1) ||
+      (email.valeu.search(".") == -1) ||
+      (email.value.search(" ") >= 1)){
+       erros.push("O formato de e-mail é: usuario@dominio.com");
+    }
+    if(!NickName.value){
+       erros.push("Preencha o nome");
+    }
+    if((password.length < 8) ||
+      (!password.value)){
+      erros.push("A senha deve ter mais de 8 digitos");
+    }
+
+    return erros;
+  }
+</script>

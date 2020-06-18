@@ -200,6 +200,61 @@ main .curiosidades #coração_esferico {
   border-radius: 6px;
 }
 
+.comentarios .comentario_atual {
+  padding-left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.comentarios .comentario_atual h1 {
+  color: yellow;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.comentarios .comentario_atual .comentario_area {
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  width: 50%;
+  background: none;
+  color: #f1f1f1;
+  border: 2px solid #3498db;
+  outline: none;
+}
+
+.comentarios .comentario_atual .comentario_area:focus {
+  border: #3498db;
+  -webkit-box-shadow: 0 0 5px #3498db, 0 0 10px;
+          box-shadow: 0 0 5px #3498db, 0 0 10px;
+  color: #35a9ec;
+}
+
+.comentarios .comentario_atual .btn_enviar {
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: #fff;
+  border-radius: 360px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.comentarios .comentario_atual .btn_enviar:hover {
+  background-color: #3498db;
+  -webkit-box-shadow: 0 0 10px #3498db, 0 0 40px;
+          box-shadow: 0 0 10px #3498db, 0 0 40px;
+  color: black;
+}
+
 footer .cont-foo {
   color: white;
   background: linear-gradient(254deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);

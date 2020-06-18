@@ -1,7 +1,7 @@
 @import "../componentes/body";
 @import "../componentes/nav";
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -10,10 +10,12 @@ header {
     color: yellow;
     text-align: center;
     text-shadow: 1px 1px 0px black;
+
     h1 {
       margin: 0;
       padding-top: 5vh;
     }
+
     h2 {
       margin: 0;
       padding-bottom: 20px;
@@ -50,6 +52,7 @@ main {
       padding: 20px;
       color: #f1f1f1;
     }
+
     .conteudo {
       display: flex;
     }
@@ -60,12 +63,14 @@ main {
       border-radius: 360px;
       margin-top: 25px;
     }
+
     .tamanho_sol {
       width: 30%;
       height: 30%;
       border-radius: 20px;
       margin-top: 70px;
     }
+
     #planetas_gasosos {
       align-items: center;
       display: flex;
@@ -76,12 +81,66 @@ main {
         margin: auto;
       }
     }
-    #coração_esferico{
+
+    #coração_esferico {
       background-image: url(/HTML/img/curiosidades/coração_esferico_semfundo.png);
       background-size: cover;
       background-repeat: no-repeat;
       min-height: 550px;
       border-radius: 6px;
+    }
+  }
+}
+
+.comentarios {
+  .comentario_atual {
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+
+
+    h1 {
+      color: yellow;
+      font-weight: bold;
+      margin-left: 0;
+
+    }
+
+    .comentario_area {
+      padding: 10px 25px;
+      margin-bottom: 30px;
+      width: 50%;
+      background: none;
+      color: #f1f1f1;
+      border: 2px solid #3498db;
+      outline: none;
+
+      &:focus {
+        border: #3498db;
+        box-shadow: 0 0 5px #3498db, 0 0 10px;
+        color: #35a9ec;
+
+      }
+    }
+
+
+    .btn_enviar {
+      border: 0;
+      background: none;
+      text-align: center;
+      border: 2px solid #3498db;
+      padding: 14px 10px;
+      width: 150px;
+      outline: none;
+      color: #fff;
+      border-radius: 360px;
+      transition: 0.25s;
+
+      &:hover {
+        background-color: #3498db;
+        box-shadow: 0 0 10px #3498db, 0 0 40px;
+        color: black;
+      }
     }
   }
 }
