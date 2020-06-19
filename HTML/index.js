@@ -58,12 +58,12 @@ app.post('/verLogin', function(req,res){
         else 
         {
             console.log(result);
-            res.redirect('/curiosidades.html');
+            res.json(nome)
         }
     })
 })
 
 
-    app.listen(8080, function () {
+    app.listen(8000, function () {
       console.log("servidor iniciado!! ")
     });

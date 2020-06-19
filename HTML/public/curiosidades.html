@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body onload="iniciar()" >
   <video autoplay loop class="bg_video">
     <source src="video/fundo1_1.mp4" type="video/mp4">
   </video>
@@ -167,3 +167,13 @@
 </div>
 
 </html>
+<script>
+  function iniciar(){
+    let usuario = sessionStorage.getItem('usuario')
+      if(!usuario){
+        window.location.href = 'login.html'
+      }
+
+    
+  }
+</script>
