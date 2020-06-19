@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/cadastro/cadastro.css">
+  <link rel="sortcut icon" href="img/Nav/Imperial_Star_Destroyer.png" type="image/png" />;
+  <title>cadastro</title>
+</head>
+
+<body>
+  <video autoplay loop class="bg_video">
+    <source src="video/fundo1_1.mp4" type="video/mp4">
+  </video>
+  <img class="destroyer" src="img/fundo/destroyer.jpg" alt="">
+
+  <nav id="navegação">
+    <a href="index.html">
+      <div class="logotipo">
+        <img id="foguete" src="img/Nav/Imperial_Star_Destroyer.png" alt="foguete">
+        <img id="logo" src="img/Nav/logo.png" alt="logo">
+        <!-- <h1>Studio<span class="titulo"> Spatium</span> </h1> -->
+      </div>
+    </a>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="curiosidades.html">curiosidades</a></li>
+      <li><a href="tecnologia.html">tecnologia</a></li>
+      <li class="marcador"><a href="login.html">login</a></li>
+    </ul>
+  </nav>
+
+  <form action="/add_user" class="cadastro" method="POST">
+    <h1>cadastro</h1>
+    <input type="email" id="email" name="emailCad" placeholder="Email" required>
+    <input type="text" id="nome" name="nomeCad" placeholder="Apelido" required>
+    <input type="password" id="senha" name="senhaCad" placeholder="Senha" required>
+    <input type="submit" value="Cadastrar">
+    <span id="MensagemAcerto"></span>
+    <ul id="MensagemErro" ></ul>
+  </form>
+
+  <a id="falcon" href="#navegação"><img id="icon_falcon" src="img/Nav/seta.png" alt=""></a>
+  <footer>
+    <div class="cont-foo">
+      <p> Studio Spatium Copyright © 2020 </p>
+    </div>
+  </footer>
+</body>
+
+</html>

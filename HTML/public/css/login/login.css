@@ -99,7 +99,7 @@ body .bg_video_body {
   cursor: pointer;
 }
 
-.box input[type="email"],
+.box input[type="text"],
 .box input[type="password"] {
   border: 0;
   background: none;
