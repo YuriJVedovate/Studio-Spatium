@@ -6,7 +6,6 @@ const cad = require("./modules/cadastroUsuario")
 const conexao = require("./modules/conexão")
 
   //CONFIGURAÇÕES
-    //template engire;
     app.use(express.static('public'));
 
     // bodyParser 

@@ -22,12 +22,16 @@
         <!-- <h1>Studio<span class="titulo"> Spatium</span> </h1> -->
       </div>
     </a>
+    <div>
     <ul>
       <li><a href="/">home</a></li>
       <li class="marcador"><a href="curiosidades.html">curiosidades</a></li>
       <li><a href="tecnologia.html">tecnologia</a></li>
       <li><a href="login.html">login</a></li>
+      <img onclick="sairSite()" src="img/Nav/sabre-de-luz.png" class="sair" id="sairPg" alt="">
     </ul>
+    
+  </div>
   </nav>
 
   <header>
@@ -173,7 +177,21 @@
       if(!usuario){
         window.location.href = 'login.html'
       }
-
-    
   }
+
+  setTimeout(() => {
+    let usuario = sessionStorage.getItem('usuario');
+    if(usuario){
+      sairPg.style.marginRight = '0px'
+    }
+    else
+    {
+      sairPg.style.marginRight = '-90px'
+    }
+}, 1);
+
+function sairSite(){
+    sessionStorage.clear();
+    window.location.href = 'index.html'
+}
 </script>

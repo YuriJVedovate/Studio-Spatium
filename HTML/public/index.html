@@ -26,6 +26,7 @@
         <li><a href="/curiosidades.html">curiosidades</a></li>
         <li><a href="/tecnologia.html">tecnologia</a></li>
         <li><a href="/login.html">login</a></li>
+        <img onclick="sairSite()" src="img/Nav/sabre-de-luz.png" class="sair" id="sairPg" alt="">
       </ul>
     </nav>
     <header>
@@ -119,3 +120,20 @@
 </body>
 
 </html>
+
+<script>setTimeout(() => {
+  let usuario = sessionStorage.getItem('usuario');
+  if(usuario){
+    sairPg.style.marginRight = '0px'
+  }
+  else
+  {
+    sairPg.style.marginRight = '-90px'
+  }
+}, 1);
+
+function sairSite(){
+  sessionStorage.clear();
+  window.location.href = 'index.html'
+}
+</script>
