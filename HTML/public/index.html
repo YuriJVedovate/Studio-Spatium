@@ -121,19 +121,23 @@
 
 </html>
 
-<script>setTimeout(() => {
-  let usuario = sessionStorage.getItem('usuario');
-  if(usuario){
-    sairPg.style.marginRight = '0px'
-  }
-  else
-  {
-    sairPg.style.marginRight = '-90px'
-  }
+<script>
+setTimeout(() => {
+    let usuario = sessionStorage.getItem('usuario');
+    if(usuario){
+      sairPg.style.marginRight = '0px'
+      logado.innerHTML += usuario;
+
+    }
+    else
+    {
+      sairPg.style.marginRight = '-90px'
+      logado.innerHTML = '';
+    }
 }, 1);
 
 function sairSite(){
-  sessionStorage.clear();
-  window.location.href = 'index.html'
+    sessionStorage.clear();
+    window.location.href = 'index.html'
 }
 </script>

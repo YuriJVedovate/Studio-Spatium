@@ -41,18 +41,20 @@ const conexao = require("./modules/conexão")
 });
 
 app.post('/verLogin', function(req,res){
-
     let nome = req.body.nome
     let senha = req.body.senha
 
+    
     conexao.query(`SELECT * FROM usuarios where nome = '${nome}' and senha = '${senha}'`, function(err, result, fields){
         if(err){
             console.log('Erro de consulta: ' + err);
-            res.redirect('/login.html')  
+            res.redirect('/login.html') 
+            
         }
         else if(result == 0){
             console.log('Dado não existe ' + err);
-            res.redirect('/login.html') 
+            res.redirect('/login.html')
+            
         }
         else 
         {
@@ -63,6 +65,6 @@ app.post('/verLogin', function(req,res){
 })
 
 
-    app.listen(8000, function () {
+    app.listen(8080, function () {
       console.log("servidor iniciado!! ")
     });

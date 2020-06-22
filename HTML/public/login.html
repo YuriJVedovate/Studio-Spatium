@@ -6,20 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/login/login.css">
   <link rel="sortcut icon" href="img/Nav/Imperial_Star_Destroyer.png" type="image/png" />;
+  <script src="/index.js"></script>
   <title>login</title>
 </head>
 
-<body>
+<body onload="iniciar()">
   <img class="estrela" src="img/login/Death_Star.png" alt="estrala da morte">
   <video autoplay loop class="bg_video">
     <source src="video/fundo1_1.mp4" type="video/mp4">
   </video>
-
+  <div id="resposta"></div>
   <form onsubmit="return Autenticar()" action="verLogin" class="box" method="POST">
     <img src="img/Nav/logo.png" alt="">
-    <input type="text" id="nome" placeholder="Username" name="nome" required>
-    <input type="password" id="senha" placeholder="Password" name="senha" required>
-    <input type="submit" value="Login">
+    <input type="text" id="nome" placeholder="Username" required>
+    <input type="password" id="senha" placeholder="Password" required>
+    <input onclick="teste()" type="submit" value="Login">
 
     <a href="/">
       <p>esqueceu a senha meu padawan?</p>
@@ -42,18 +43,26 @@
     }
 
     fetch('/verlogin', {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(formulario)
-  }).then(result => {
-    result.json().then(resposta => {
-      sessionStorage.setItem('usuario', resposta);
-      window.location.href = "curiosidades.html"
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formulario)
+    }).then(result => {
+      result.json().then(resposta => {
+        sessionStorage.setItem('usuario', resposta);
+        window.location.href = "curiosidades.html"
+      })
     })
-  })
-  return false;
+    return false;
   }
 
+  function teste() {
+    setTimeout(() => {
+      let usuario = sessionStorage.getItem('usuario');
+      if (!usuario) {
+        alert("usuario invalido")
+      }
+    }, 100);
+  }
 </script>

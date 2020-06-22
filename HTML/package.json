@@ -12,9 +12,11 @@
     "save": "^2.4.0",
     "sequelize": "^5.21.13"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "start": ""
+    "start": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",

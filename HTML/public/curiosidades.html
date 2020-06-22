@@ -30,6 +30,7 @@
       <li><a href="login.html">login</a></li>
       <img onclick="sairSite()" src="img/Nav/sabre-de-luz.png" class="sair" id="sairPg" alt="">
     </ul>
+  <span id="logado" class="logado">Bem vindo, </span>
     
   </div>
   </nav>
@@ -183,10 +184,13 @@
     let usuario = sessionStorage.getItem('usuario');
     if(usuario){
       sairPg.style.marginRight = '0px'
+      logado.innerHTML += usuario;
+
     }
     else
     {
       sairPg.style.marginRight = '-90px'
+      logado.innerHTML = '';
     }
 }, 1);
 
