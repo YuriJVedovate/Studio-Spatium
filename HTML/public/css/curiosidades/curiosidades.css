@@ -95,12 +95,14 @@ nav .sair {
   height: 40px;
   padding-top: 10px;
   padding-left: 11px;
+  cursor: pointer;
 }
 
 .logado {
   position: absolute;
   top: 0px;
   right: 58px;
+  margin: 10px;
 }
 
 #falcon {

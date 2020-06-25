@@ -183,13 +183,13 @@
   setTimeout(() => {
     let usuario = sessionStorage.getItem('usuario');
     if(usuario){
-      sairPg.style.marginRight = '0px'
+      sairPg.style.display = "block"
       logado.innerHTML += usuario;
 
     }
     else
     {
-      sairPg.style.marginRight = '-90px'
+      sairPg.style.display = "none";
       logado.innerHTML = '';
     }
 }, 1);

@@ -1,0 +1,53 @@
+script de apresentação:
+1- deixar aberto vscode, workbanch, pagina do site; 
+
+2- comprimentar os professores;
+3- iniciar a apresentação no canva;
+
+4- explicar o tema do projeto, nome e slogan
+5- explicar topicos abordados no site 
+
+MAS ANTES 
+
+6- explicar sua linha do tempo
+7- os desafios que tive no projeto
+8- caracteristicas socioemocional que desenvolvi
+9- equipe de desenvolvimento
+10- agradecer ao Gabriel bezzera e Victor Samir
+
+AGORA SIM VAMOS AO SITE
+
+11- explicar as tecnologias usadas no projeto (HTML, SASS, JAVASCRIPT, NODEJS, BANCO DE DADOS (LOCAL))
+12- iniciar o servidor (NPM START)
+13- explicar que usei com desing o tema de STARWARS
+14- Mostrar o menu de navegação 
+15- iniciar o video
+16- passar rapidamente pelo texto inicial (CONTEXTO ATUAL)
+17- comparação entre NASA e SPACEX
+18- explicar a falcon (ICON) que faz subir 
+
+ENTRAR EM CURIOSIDADE 
+19- explicar que como nao temos um loguin nao é possivel entrar nas curiosidades
+20- fazer loguin dos professores clicando em (	VENHA PARA O LADO NEGRO DA FORÇA )
+21- fazer cadastro de professores (professores@bandtec.com.br, professores, professores123)
+22- mostrar login no workbanch
+23- logar 
+24- explicar que agora temos acesso a curiosidades
+25- nome no topo da pagina, com botao de sair
+26- falar da curiosidade do sol branco
+27- efeito do coração no espaço
+28- falar que comentarios e pagina para recuperar a senha nao foram concluidas por conta de uma espaconave 
+do imperio cair no meu servidor
+ENTRAR EM TECNOLOGIA
+29- explicar que tem marcos de 1957 a 2020 
+30- falar do maior record no espaço (1 ano e 2 meses)
+31- falar que infelizmente ja ocorreu mortes no espaço
+32- clicar em sair (AQUI EU FINALIZO NOSSO LOGIN E APRESENTAÇÃO)
+33- OBRIGADO A TODOS	
+
+
+   
+
+
+
+

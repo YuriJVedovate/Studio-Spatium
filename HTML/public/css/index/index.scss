@@ -16,24 +16,41 @@ header {
     padding: 0px;
   }
 }
-.conteudo {
-  color: yellow;
-  text-align: center;
 
-  .conteiner {
-    display: flex;
-    flex-direction: column;
-    text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.514);
-  }
-  h2 {
-    font-weight: 700;
-  }
-  p {
-    margin: 0px;
-    padding: 10px 200px;
-    line-height: 30px;
+.conteudo{
+
+  .conteiner{
+    width: 70%;
+    margin: auto;
+
+    .titulo{
+      font-weight: bolder;
+      font-size: 50px;
+      color: yellow;
+      text-shadow: 10px 10px 10px black;
+      text-align: center;
+      margin: 20px;
+    }
+
+    .paragrafos{
+      color: #f1f1f1;
+      text-shadow: 1px 1px 1px black;
+      text-indent: 40px;
+    }
+
+    .img{
+      width: 100%;
+      margin: 20px 0;
+    }
+
+    .espaço{
+      height: 50px;
+    }
+    
+
   }
 }
+
 main {
   
   color: #fff;
